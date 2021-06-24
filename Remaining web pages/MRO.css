@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background-image: url("images/Group.png");
+    background-size: 300%;
+}
+
+.main {
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+}
+
+#head1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 40px;
+    padding-top: 3%;
+}
+
+#head2 {
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>a:after {
+    content: ">";
+    float: right;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.bg-danger {
+    background-color: #CB0000 !important;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+#logo {
+    margin-left: -9%;
+    margin-top: -7% !important;
+    margin-bottom: -5%;
+}
+
+.row {
+    padding-top: 3.5%;
+}
+
+p {
+    padding-left: 11%;
+}
+
+.sidenav {
+    margin-left: -5.5%;
+}
+
+.col-sm-3 {
+    padding-top: 2.5%;
+    background: rgb(203, 204, 187);
+    background-size: 100%;
+}
+
+.side-nav1:hover {
+    color: black;
+    opacity: 1 !important;
+}
+
+@media (max-width: 1265px) {
+    .side-nav1,
+    #head1 {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 1022px) {
+    .side-nav1,
+    #head1 {
+        padding-top: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-3 {
+        visibility: hidden !important;
+    }
+    .row {
+        padding-top: -70%;
+    }
+}

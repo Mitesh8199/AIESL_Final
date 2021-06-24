@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="component.css">
+
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/small_logo.png" alt="AIESL LOGO" style="height:50px;width: 200px;" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                            </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabel1" role="button" data-toggle="dropdown" class="nav-link " href="#">
+                                                                About Us
+                                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown1">
+                                        <li><a class="dropdown-item" href="#">Organisation</a></li>
+                                        <li><a class="dropdown-item" href="#">Facilities</a></li>
+                                        <li><a class="dropdown-item" href="#">Clients</a></li>
+                                        <li><a class="dropdown-item" href="#">Accredition</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+        
+        
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">New Tab</a>
+                            </li>
+                            <li class="nav-item ">
+        
+                                <div class="btn-group">
+                                    <a id="dLabe2" role="button" data-toggle="dropdown" class="nav-link" href="#">
+                                                                Services
+                                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown2">
+        
+        
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" tabindex="-1" href="#">
+                                                                        MRO Services
+                                                                    </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Heavy Maintenance</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Line Maintenance</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Engine APU/Overhaul</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Landing Gear Overhaul</a>
+                                                </li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Avionic Accessories
+                                                                                Overhaul</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Component Overhaul</a></li>
+        
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Engineering Training Services</a></li>
+                                        <li><a class="dropdown-item" href="#">Specialized Services</a></li>
+                                        <li><a class="dropdown-item" href="#">Allied Services</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+        
+        
+        
+        
+        
+                            </li>
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabe3" role="button" data-toggle="dropdown" class="nav-link active" href="#">
+                                                                Approvals & Capabilities
+                                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown3">
+                                        <li><a class="dropdown-item" href="#">Approvals</a></li>
+        
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" tabindex="-1" href="#">
+                                                                        Capabilities
+                                                                    </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Aircraft Capabilities</a>
+                                                </li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Component Capabilities</a>
+                                                </li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">MRO Capabilities</a></li>
+        
+        
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+        
+        
+        
+        
+        
+        
+        
+        
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">Financials</a>
+                            </li>
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabel4" role="button" data-toggle="dropdown" class="nav-link Contact" href="#">
+                                                                Contact Us
+                                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown4">
+                                        <li><a class="dropdown-item" href="#">Reach Us</a></li>
+                                        <li><a class="dropdown-item" href="#">Tenders</a></li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" style="border:mintcream;">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="background:#E5E7C6; color: #CB0000; border:mintcream; font-weight: 600;">Search</button>
+                    </form>
+                </div>
+        
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="#" style="text-decoration: none;font-size: 24px;color: white;">
+                            <p class="side-nav1" style="opacity: 0.6;">
+                                Approvals
+                            </p>
+                        </a>
+                        <ul style="list-style-type: none;">
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabel" role="button" data-toggle="dropdown" class="sidenav" href="#" style="text-decoration: none;font-size: 24px;color: white;">
+                                                        Capabilities
+                                                    </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown">
+                                        <li><a class="dropdown-item" href="#">Aircrafts Capabilities</a></li>
+                                        <li><a class="dropdown-item" href="#">MRO Capabilities</a></li>
+                                        <li><a class="dropdown-item" href="#">MRO Capabilities</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+                            </li>
+                        </ul>
+        
+        
+        
+                    </div>
+        
+        
+        
+                    <div class="col-sm-9">
+                        <div class="main links">
+                            <h1 id="head1">Services</h1>
+                            <hr class="new1">
+                            <h3 style="color: white"> List Of Approvals</h3>
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">DGCA,India</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">Fedral Aviation Administration(FAA)</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">CEMILAC</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">CAA,Singapore</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">QCC,Qatar</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">KCASR,Kuwait</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">GCCA,UAE</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">NABL</a><br />
+                            <a href="#" class="links" style="text-decoration: underline; color: white;font-size: 20px; font-weight: 700;line-height: 300%;">CAAT,Thailand</a><br />
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+            </div>
+            <script>
+                    $(".btn-group, .dropdown").hover(
+                        function() {
+                            $('>.dropdown-menu', this).stop(true, true).slideDown("fast");
+                            $(this).addClass('open');
+                        },
+                        function() {
+                            $('>.dropdown-menu', this).stop(true, true).slideUp("fast");
+                            $(this).removeClass('open');
+                        });
+                </script>
+</body>
+</html>

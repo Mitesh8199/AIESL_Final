@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="heavy_maintainance.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/small_logo.png" alt="AIESL LOGO" style="height:50px;width: 200px;" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabel1" role="button" data-toggle="dropdown" class="nav-link" href="#">
+                                                About Us
+                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown1">
+                                        <li><a class="dropdown-item" href="#">Organisation</a></li>
+                                        <li><a class="dropdown-item" href="#">Facilities</a></li>
+                                        <li><a class="dropdown-item" href="#">Clients</a></li>
+                                        <li><a class="dropdown-item" href="#">Accredition</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+        
+        
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">New Tab</a>
+                            </li>
+                            <li class="nav-item ">
+        
+                                <div class="btn-group">
+                                    <a id="dLabe2" role="button" data-toggle="dropdown" class="nav-link active" href="#">
+                                                Services
+                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown2">
+        
+        
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" tabindex="-1" href="#">
+                                                        MRO Services
+                                                    </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Heavy Maintenance</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Line Maintenance</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Engine APU/Overhaul</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Landing Gear Overhaul</a>
+                                                </li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Avionic Accessories
+                                                                Overhaul</a></li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Component Overhaul</a></li>
+        
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Engineering Training Services</a></li>
+                                        <li><a class="dropdown-item" href="#">Specialized Services</a></li>
+                                        <li><a class="dropdown-item" href="#">Allied Services</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+        
+        
+        
+        
+        
+                            </li>
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabe3" role="button" data-toggle="dropdown" class="nav-link" href="#">
+                                                Approvals & Capabilities
+                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown3">
+                                        <li><a class="dropdown-item" href="#">Approvals</a></li>
+        
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" tabindex="-1" href="#">
+                                                        Capabilities
+                                                    </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Aircraft Capabilities</a>
+                                                </li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">Component Capabilities</a>
+                                                </li>
+                                                <li><a class="dropdown-item" tabindex="-1" href="#">MRO Capabilities</a></li>
+        
+        
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+        
+        
+        
+        
+        
+        
+        
+        
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">Financials</a>
+                            </li>
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabel4" role="button" data-toggle="dropdown" class="nav-link Contact" href="#">
+                                                Contact Us
+                                            </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown4">
+                                        <li><a class="dropdown-item" href="#">Reach Us</a></li>
+                                        <li><a class="dropdown-item" href="#">Tenders</a></li>
+                                        <li><a class="dropdown-item" href="#">Careers</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+                            </li>
+                            <!-- <li>
+                                            <div class="btn-group">
+                                                <a id="dLabel" role="button" data-toggle="dropdown" class="nav-link" href="#">
+                                                            Dropdown
+                                                        </a>
+                                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                    <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                    <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                    <li class="dropdown-divider"></li>
+                                                    <li class="dropdown-submenu">
+                                                        <a class="dropdown-item" tabindex="-1" href="#">
+                                                                    level 1
+                                                                </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+                                                            <li class="dropdown-submenu">
+                                                                <a class="dropdown-item" href="#">
+                                                                            level 2
+                                                                        </a>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                                    <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                            <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li> -->
+        
+        
+        
+        
+        
+        
+                        </ul>
+        
+        
+                    </div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" style="border:mintcream;">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="background:#E5E7C6; color: #CB0000; border:mintcream; font-weight: 600;">Search</button>
+                    </form>
+                </div>
+        
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- <a href="#" style="text-decoration: none;font-size: 24px;color: black;">
+                            <p class="side-nav">
+                                MRO Services
+                            </p>
+                        </a> -->
+        
+        
+        
+        
+                        <ul style="list-style-type: none;">
+                            <li class="nav-item ">
+        
+        
+                                <div class="btn-group">
+                                    <a id="dLabel" role="button" data-toggle="dropdown" class="sidenav" href="#" style="text-decoration: none;font-size: 24px;color: black;">
+                                            MRO Services
+                                        </a>
+                                    <ul class="dropdown-menu" role="menu" id="drpdown">
+                                        <li><a class="dropdown-item" href="#">Heavy Maintainance</a></li>
+                                        <li><a class="dropdown-item" href="#">Line Maintainance</a></li>
+                                        <li><a class="dropdown-item" href="#">Engine/APU Overhaul</a></li>
+                                        <li><a class="dropdown-item" href="#">Landing Gear Repair/Overhaul</a></li>
+                                        <li><a class="dropdown-item" href="#">Avionics Accessories Overhaul</a></li>
+                                        <li><a class="dropdown-item" href="#">Compnent Overhaul</a></li>
+        
+                                    </ul>
+                                </div>
+        
+        
+        
+                            </li>
+                        </ul>
+                        <a href="#" style="text-decoration: none;font-size: 24px;color: black;">
+                            <p class="side-nav1" style="opacity: 0.6;">
+                                Engg Training Services
+                            </p>
+                        </a>
+                        <a href="#" style="text-decoration: none;font-size: 24px;color: black;">
+                            <p class="side-nav1" style="opacity: 0.6;">
+                                Specialized Services
+                            </p>
+                        </a>
+                        <a href="#" style="text-decoration: none;font-size: 24px;color: black;">
+                            <p class="side-nav1" style="opacity: 0.6;">
+                                Allied Services
+                            </p>
+                        </a>
+        
+                    </div>
+        
+        
+                    <div class="col-md-9">
+        
+                        <h1> Services - MRO Services </h1>
+                        <hr>
+                        <h3>Avionics Accessories Overhaul</h3>
+                        <p class="para1"> DGCA/ FAA/EASA approved repair stations Largest independent Avionics and Component repair facility in India Extensive range of services including repair, overhaul & modification of components and DFDR transcription facilities</p>
+        
+        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/AVI1.JPG" alt="IMG 1" style="height: 100%;width: 100%;border-radius: 4%;">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/AVI2.JPG" alt="IMG 2" style="height: 100%;width: 100%;border-radius: 4%;" id="imgTwo">
+                            </div>
+                        </div>
+                        <p class="para1" style="margin-top: 4%;" id="paradown">Our world class facilities can cater to your sensitive avionics components like flight deck instruments, radio communication & navigation equipments, onboard computers, In-flight entertainment, Weather radar, Displays and CVR/DFDR readout. Our facility includes many Automatic Test Equipments We have Test Facility for Pack and Zone Temperature Controller, GCU, BPCU, APU Controller ,Back Up Converter, Cabin Temperature Controller, APU Controller </p>
+        
+        
+                    </div>
+        
+                </div>
+            </div>
+            <script>
+                    $(".btn-group, .dropdown").hover(
+                        function() {
+                            $('>.dropdown-menu', this).stop(true, true).slideDown("fast");
+                            $(this).addClass('open');
+                        },
+                        function() {
+                            $('>.dropdown-menu', this).stop(true, true).slideUp("fast");
+                            $(this).removeClass('open');
+                        });
+                </script>
+    
+</body>
+</html>
